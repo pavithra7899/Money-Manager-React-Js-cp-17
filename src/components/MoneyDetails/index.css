@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.image {
+  width: 60px;
+  height: 60px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 257px;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.flex-container-1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.flex-container-2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.flex-container-3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.cards-heading {
+  font-size: 15px;
+  color: #7e858e;
+  font-weight: 500;
+}
+.count-money {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+}
+.container {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-container {
+    margin-left: 20px;
+  }
+}
